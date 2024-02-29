@@ -1,0 +1,65 @@
+.related-products a{
+    text-decoration: none;
+    color: black;
+}
+
+.singlepro{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-top: 50px;
+}
+
+.singlepro img{
+    width: 100%;
+    height: 33rem;
+    padding-left: 50px;
+}
+
+.price-category span{
+padding-right: 40px;
+}
+
+.singlepro-sec-div2 span{
+    color: black;
+}
+
+
+.singlepro-sec-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    font-size: 21px;
+}
+
+.singlepro-sec-div2 input{
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.singlepro-sec-div2 button{
+    background-color: rgb(4, 4, 101);
+    border-radius: 10px;
+    color: white;
+    width:25%;
+    /* padding: 9px; */
+    height: 60px;
+}
+
+
+.singlepro-div {
+    padding: 4rem;
+}
+
+.singlepro-div h4{
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+.singlepro-div span{
+    color: black;
+    font-size: x-large;
+}

@@ -1,0 +1,78 @@
+.cards-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    width: 75%;
+    margin-left: 170px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.cards_6{
+    box-shadow: 0px 3px 6px 0px rgb(148, 146, 146);
+}
+
+.card-data img {
+    width: 100%;
+    height: 300px;
+    margin-top: 4px;
+}
+
+.cards-container {
+    margin-top: 60px;
+    background-color: rgb(241, 246, 248);
+    padding: 35px;
+}
+
+.text-center {
+    margin-top: 60px;
+}
+
+.discount {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: rgb(33, 33, 87);
+    color: white;
+}
+
+.heart-icon {
+    margin-left: 230px;
+    font-size: 25px;
+    color:black;
+    background-color: rgb(234, 13, 13);
+    opacity: 0;
+}
+
+
+
+.card-data:hover .heart-icon {
+    /* background-color: rgb(234, 13, 13); */
+    width: 10px;
+    opacity: 1;
+}
+
+.card-data p {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.plus-btn {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: -10px;
+}
+
+.round{
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid rgb(215, 213, 213);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+.round:hover{
+    background-color: rgb(104, 104, 243);
+    color: white;
+}

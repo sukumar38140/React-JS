@@ -1,0 +1,63 @@
+.rounded-icon {
+    display: inline-block;
+    border-radius: 100%;
+    padding: 5px;
+    width: 20%;
+    background-color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.cards4{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 25px;
+flex-wrap: wrap;
+}
+
+.rounded-section {
+    border-radius: 5px;
+    padding: 15px;
+    margin: 30px -5px;
+}
+
+#big-section {
+    width: 350px;
+    height: 250px;
+}
+/* 
+.bg-color1 {
+    background-color: #eed1f0;
+}
+
+.bg-color2 {
+    background-color: #b6e6fa;
+}
+
+.bg-color3 {
+    background-color: #91ea89;
+}
+
+.bg-color4 {
+    background-color: #bcbdf9;
+} */
+
+.section-title {
+    margin-top: 30px;
+    font-size: 27px;
+}
+
+.section-text {
+    margin-top: 30px;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .rounded-section {
+        width: 100%;
+    }
+}
+
+/* Slider part ends here */
