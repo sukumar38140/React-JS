@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 2fr);
     gap: 20px;
     width: 75%;
-    margin-left: 170px;
+    margin-left: 180px;
     margin-right: 150px;
     margin-bottom: 30px;
 }
@@ -39,14 +39,10 @@
     margin-left: 230px;
     font-size: 25px;
     color:black;
-    background-color: rgb(234, 13, 13);
     opacity: 0;
 }
 
-
-
 .card-data:hover .heart-icon {
-    /* background-color: rgb(234, 13, 13); */
     width: 10px;
     opacity: 1;
 }
@@ -73,6 +69,6 @@
 }
 
 .round:hover{
-    background-color: rgb(104, 104, 243);
+    background-color: rgb(5, 5, 46);
     color: white;
 }

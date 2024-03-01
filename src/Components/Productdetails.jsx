@@ -1,16 +1,37 @@
 import Navbar from "./Navbar";
 // import Simpleproducts from '../Componants/Best Sales';
 import Footer from "./Footer";
-import { FaPlus } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import "../Assets/CSS/Productdetails.css"
-
-
+import { useDispatch } from 'react-redux';
+import { addtocart } from '../action';
 import Card from 'react-bootstrap/Card';
 import { discountProducts, Newarrivals, products, Watches } from '../Assets/products';
 import { useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Bounce } from 'react-toastify';
 
 function Productdetails() {
+
+
+    const dispatch = useDispatch()
+
+    function additemtocart(product) {
+        dispatch(addtocart(product))
+        toast.success('Product has been added to cart ', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
+    }
+
 
     let completeproducts = discountProducts.concat(Newarrivals, products, Watches)
 
@@ -22,6 +43,7 @@ function Productdetails() {
 
     return (
         <>
+         <ToastContainer />
             <div>
                 <Navbar style={{ position: 'sticky', top: '0', zIndex: '1000' }} />
             </div>
@@ -49,12 +71,12 @@ function Productdetails() {
                         </div>
                         <p>{item.shortDesc}</p>
                         <input type="number" />
-                        <aside className="mt-3"><button>Add To Cart</button></aside>
+                        <aside className="mt-3"><button onClick={()=>additemtocart(item)}>Add To Cart</button></aside>
                     </div>
                 </section>
 
                 <div className="singlepro-div">
-                    <h4>Description</h4>
+                    <h4>Description:</h4>
                     <span>{item.description}</span>
                 </div>
                 {/* <Card className="cards_6">

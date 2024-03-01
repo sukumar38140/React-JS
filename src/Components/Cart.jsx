@@ -37,7 +37,7 @@ function Cart() {
     const calculateTotalPrice = () => {
         let totalPrice = 0;
         prods.forEach(item => {
-            totalPrice += item.price * item.quantity;
+            totalPrice += Number(item.price) *Number( item.quantity);
         });
         return totalPrice;
     }
@@ -77,7 +77,7 @@ function Cart() {
                         <h6>Cart summary</h6>
                         <hr />
                         <p>Total Price :
-                            <aside className="fw-bold fs-1">$ {calculateTotalPrice()}.00</aside>
+                            <aside className="fw-bold fs-1">${Number(calculateTotalPrice())}.00</aside>
                             
                         </p>
                     </div>

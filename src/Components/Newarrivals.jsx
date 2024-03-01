@@ -6,6 +6,9 @@ import { FaPlus } from "react-icons/fa6";
 import '../Assets/CSS/Newarrivals.css';
 import { useDispatch } from 'react-redux';
 import { addtocart } from '../action';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Bounce } from 'react-toastify';
 
 function NewArrivals() {
 
@@ -13,6 +16,17 @@ function NewArrivals() {
 
     function additemtocart(product) {
         dispatch(addtocart(product))
+        toast.success('Product has been added to cart ', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
     }
 
     return (

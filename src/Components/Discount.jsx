@@ -47,13 +47,13 @@ function Discount() {
                                 <Card.Body>
                                     <Card.Text className="card-data">
                                         <span className="discount">{product.discount}%Off</span>
-                                        <span className="heart-icon"><FaRegHeart /></span>
-                                        <img src={product.imgUrl} alt="" />
+                                        <span className="heart-icon"><FaRegHeart className="heart" /></span>
+                                        <img src={product.imgUrl} alt=""/>
                                         <h3>{product.productName}</h3>
                                         <p className="fs-4">⭐⭐⭐⭐⭐</p>
                                         <div className="plus-btn">
                                             <p>${product.price}</p>
-                                            <button onClick={ additemtocart} className="round "><FaPlus /></button>
+                                            <button onClick={()=>additemtocart(product)} className="round "><FaPlus /></button>
                                         </div>
                                     </Card.Text>
                                 </Card.Body>

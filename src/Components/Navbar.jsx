@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-white" style={{position:'sticky',top:'0',zIndex:'1000',boxShadow:'grey 0px 8px 6px -5px'}}>
-                <div className="container-fluid m-0">
+                <div className="container-fluid ">
                     <a className="navbar-brand me-lg-5 d-flex align-items-center" href="#" style={{ fontSize: '40px', fontWeight: 'bold', marginLeft: '80px' }}>
                         <IoBag size={40} style={{ verticalAlign: 'middle' }} />
                         Mart
