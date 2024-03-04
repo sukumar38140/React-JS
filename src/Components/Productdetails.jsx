@@ -44,10 +44,8 @@ function Productdetails() {
     return (
         <>
          <ToastContainer />
-            <div>
                 <Navbar style={{ position: 'sticky', top: '0', zIndex: '1000' }} />
-            </div>
-
+            
             <div className="shop_main_div">
                 <h6 className="product">{item.productName}</h6>
             </div>
