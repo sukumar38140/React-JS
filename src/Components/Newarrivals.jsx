@@ -4,6 +4,7 @@ import { Newarrivals } from '../Assets/products';
 import { FaRegHeart } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import '../Assets/CSS/Newarrivals.css';
+// import '../Assets/CSS/responsiveness/Newarrivalsresponsive.css'
 import { useDispatch } from 'react-redux';
 import { addtocart } from '../action';
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import '../Assets/CSS/Cart.css';
+// import '../Assets/CSS/responsiveness/Cartresponsive.css'
 import { useSelector, useDispatch } from "react-redux";
 import Card from 'react-bootstrap/Card';
 import { IoClose } from "react-icons/io5";

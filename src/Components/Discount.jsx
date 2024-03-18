@@ -5,6 +5,7 @@ import { discountProducts } from "../Assets/products";
 import { FaRegHeart } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import '../Assets/CSS/Discount.css';
+// import '../Assets/CSS/responsiveness/Discountresponsive.css'
 import { useDispatch } from 'react-redux';
 import { addtocart } from '../action';
 import { ToastContainer, toast } from 'react-toastify';

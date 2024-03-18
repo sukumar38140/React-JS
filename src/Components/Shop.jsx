@@ -3,6 +3,7 @@ import { FaPlus } from "react-icons/fa6";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "../Assets/CSS/Shop.css";
+// import '../Assets/CSS/responsiveness/shopresponsive.css'
 import { Link } from 'react-router-dom';
 import { discountProducts, Newarrivals, products, Watches } from '../Assets/products';
 import { useState } from 'react';

@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from 'react-router-dom';
 import "../Assets/CSS/Productdetails.css"
+// import '../Assets/CSS/responsiveness/Productdetailsresponsive.css'
 import { useDispatch } from 'react-redux';
 import { addtocart } from '../action';
 import Card from 'react-bootstrap/Card';

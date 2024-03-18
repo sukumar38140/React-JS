@@ -2,9 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { SliderData } from "../Assets/products";
 import '../Assets/CSS/Slider.css';
-
-
-
+// import '../Assets/CSS/responsiveness/Slideresponsive.css'
 
 function SimpleSlider() {
     const settings = {

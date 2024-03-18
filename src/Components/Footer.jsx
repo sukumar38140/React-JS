@@ -1,5 +1,6 @@
 import { IoBag } from "react-icons/io5";
 import '../Assets/CSS/Footer.css'
+// import '../Assets/CSS/responsiveness/Footeresponsive.css'
 
 
 function Footer() {

@@ -1,109 +1,447 @@
-.cart_sec {
-    background-color: rgb(247, 249, 252);
 
+
+
+/* @media screen and (min-width: 1536px){
+    .cart_sec {
+        background-color: rgb(247, 249, 252);
+    
+    }
+    
+    .cart_data{
+        padding: 20px;
+    }
+    
+    .cart_cards{
+    margin-bottom: 30px;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+    
+    .cart_main_div {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        padding: 80px;
+        gap: 8rem;
+    }
+    
+    .sub_div2 {
+        background-color: white;
+        padding: 30px;
+        max-height: 200px;
+    
+    }
+    
+    /* .sub_div1 {
+        border: 2px solid green;
+    } */
+    
+    .sub_div2 h6 {
+        margin-bottom: -0.5rem;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    
+    .sub_div2 p {
+        font-size: x-large;
+    }
+    
+    
+    /* //////////////////////////////////////////////////////////// */
+    
+    .cart-data {
+       display: grid;
+       grid-template-columns: 25% 55% 15%;
+    }
+    
+    .cart-data img {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .cartdata-div2 h3{
+        padding-top: 30px;
+        font-size:xx-large;
+    }
+    
+    .cartdata-div2 p{
+        padding-top: 55px;
+        font-size:x-large;
+    }
+    
+    .cartdata-div2 span{
+        margin-left: 20px;
+        font-weight: bold;
+        color:rgb(3, 3, 62);
+    }
+    
+    
+    .cartdata-div3,.xicon{
+        background-color: white;
+    }
+    
+    .xicon{
+        border: 2px solid white;
+        font-size: 50px;
+      
+    }
+    .delete-icon{
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    
+    .plus-minus{
+        margin-top: 3rem;
+        margin-left: -40px;
+        display: grid;
+        grid-template-columns: 45% 20%;
+    }
+    
+    .plus-minus button{
+        font-size: 25px;
+        border-radius: 7px;
+        width: 60px;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 9px;
+    }
+    
+    .cartdata-div3 button{
+    margin-left: 30px;
+    }
+
+@media screen and (min-width: 1280px){
+    .cart_sec {
+        background-color: rgb(247, 249, 252);
+    
+    }
+    
+    .cart_data{
+        padding: 20px;
+    }
+    
+    .cart_cards{
+    margin-bottom: 30px;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+    
+    .cart_main_div {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        padding: 80px;
+        gap: 8rem;
+    }
+    
+    .sub_div2 {
+        background-color: white;
+        padding: 30px;
+        max-height: 200px;
+    
+    }
+    
+    /* .sub_div1 {
+        border: 2px solid green;
+    } */
+    
+    .sub_div2 h6 {
+        margin-bottom: -0.5rem;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    
+    .sub_div2 p {
+        font-size: x-large;
+    }
+    
+    
+    /* //////////////////////////////////////////////////////////// */
+    
+    .cart-data {
+       display: grid;
+       grid-template-columns: 25% 55% 15%;
+    }
+    
+    .cart-data img {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .cartdata-div2 h3{
+        padding-top: 30px;
+        font-size:xx-large;
+    }
+    
+    .cartdata-div2 p{
+        padding-top: 55px;
+        font-size:x-large;
+    }
+    
+    .cartdata-div2 span{
+        margin-left: 20px;
+        font-weight: bold;
+        color:rgb(3, 3, 62);
+    }
+    
+    
+    .cartdata-div3,.xicon{
+        background-color: white;
+    }
+    
+    .xicon{
+        border: 2px solid white;
+        font-size: 50px;
+      
+    }
+    .delete-icon{
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    
+    .plus-minus{
+        margin-top: 3rem;
+        margin-left: -40px;
+        display: grid;
+        grid-template-columns: 45% 20%;
+    }
+    
+    .plus-minus button{
+        font-size: 25px;
+        border-radius: 7px;
+        width: 60px;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 9px;
+    }
+    
+    .cartdata-div3 button{
+    margin-left: 30px;
+    }
 }
-
-.cart_data{
-    padding: 20px;
+@media screen and (min-width: 1024px){
+    .cart_sec {
+        background-color: rgb(247, 249, 252);
+    
+    }
+    
+    .cart_data{
+        padding: 20px;
+    }
+    
+    .cart_cards{
+    margin-bottom: 30px;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+    
+    .cart_main_div {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        padding: 80px;
+        gap: 8rem;
+    }
+    
+    .sub_div2 {
+        background-color: white;
+        padding: 30px;
+        max-height: 200px;
+    
+    }
+    
+    /* .sub_div1 {
+        border: 2px solid green;
+    } */
+    
+    .sub_div2 h6 {
+        margin-bottom: -0.5rem;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    
+    .sub_div2 p {
+        font-size: x-large;
+    }
+    
+    
+    /* //////////////////////////////////////////////////////////// */
+    
+    .cart-data {
+       display: grid;
+       grid-template-columns: 25% 55% 15%;
+    }
+    
+    .cart-data img {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .cartdata-div2 h3{
+        padding-top: 30px;
+        font-size:xx-large;
+    }
+    
+    .cartdata-div2 p{
+        padding-top: 55px;
+        font-size:x-large;
+    }
+    
+    .cartdata-div2 span{
+        margin-left: 20px;
+        font-weight: bold;
+        color:rgb(3, 3, 62);
+    }
+    
+    
+    .cartdata-div3,.xicon{
+        background-color: white;
+    }
+    
+    .xicon{
+        border: 2px solid white;
+        font-size: 50px;
+      
+    }
+    .delete-icon{
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    
+    .plus-minus{
+        margin-top: 3rem;
+        margin-left: -40px;
+        display: grid;
+        grid-template-columns: 45% 20%;
+    }
+    
+    .plus-minus button{
+        font-size: 25px;
+        border-radius: 7px;
+        width: 60px;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 9px;
+    }
+    
+    .cartdata-div3 button{
+    margin-left: 30px;
+    }
 }
-
-.cart_cards{
-margin-bottom: 30px;
-}
-
-.card-body{
-    padding: 0px;
-}
-
-.cart_main_div {
-    display: grid;
-    grid-template-columns: 60% 30%;
-    padding: 80px;
-    gap: 8rem;
-}
-
-.sub_div2 {
-    background-color: white;
-    padding: 30px;
-    max-height: 200px;
-
-}
-
-/* .sub_div1 {
-    border: 2px solid green;
-} */
-
-.sub_div2 h6 {
-    margin-bottom: -0.5rem;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.sub_div2 p {
-    font-size: x-large;
-}
-
-
-/* //////////////////////////////////////////////////////////// */
-
-.cart-data {
-   display: grid;
-   grid-template-columns: 25% 55% 15%;
-}
-
-.cart-data img {
-    width: 90%;
-    height: 200px;
-}
-
-.cartdata-div2 h3{
-    padding-top: 30px;
-    font-size:xx-large;
-}
-
-.cartdata-div2 p{
-    padding-top: 55px;
-    font-size:x-large;
-}
-
-.cartdata-div2 span{
-    margin-left: 20px;
-    font-weight: bold;
-    color:rgb(3, 3, 62);
-}
-
-
-.cartdata-div3,.xicon{
-    background-color: white;
-}
-
-.xicon{
-    border: 2px solid white;
-    font-size: 50px;
-  
-}
-.delete-icon{
-    position: relative;
-    left: 70px;
-    top: -20px;
-}
-
-.plus-minus{
-    margin-top: 3rem;
-    margin-left: -40px;
-    display: grid;
-    grid-template-columns: 45% 20%;
-}
-
-.plus-minus button{
-    font-size: 25px;
-    border-radius: 7px;
-    width: 60px;
-    background-color: white;
-    flex-wrap: wrap;
-    padding: 9px;
-}
-
-.cartdata-div3 button{
-margin-left: 30px;
+@media screen and (min-width: 768px){
+    .cart_sec {
+        background-color: rgb(247, 249, 252);
+    
+    }
+    
+    .cart_data{
+        padding: 20px;
+    }
+    
+    .cart_cards{
+    margin-bottom: 30px;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+    
+    .cart_main_div {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        padding: 80px;
+        gap: 8rem;
+    }
+    
+    .sub_div2 {
+        background-color: white;
+        padding: 30px;
+        max-height: 200px;
+    
+    }
+    
+    /* .sub_div1 {
+        border: 2px solid green;
+    } */
+    
+    .sub_div2 h6 {
+        margin-bottom: -0.5rem;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    
+    .sub_div2 p {
+        font-size: x-large;
+    }
+    
+    
+    /* //////////////////////////////////////////////////////////// */
+    
+    .cart-data {
+       display: grid;
+       grid-template-columns: 25% 55% 15%;
+    }
+    
+    .cart-data img {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .cartdata-div2 h3{
+        padding-top: 30px;
+        font-size:xx-large;
+    }
+    
+    .cartdata-div2 p{
+        padding-top: 55px;
+        font-size:x-large;
+    }
+    
+    .cartdata-div2 span{
+        margin-left: 20px;
+        font-weight: bold;
+        color:rgb(3, 3, 62);
+    }
+    
+    
+    .cartdata-div3,.xicon{
+        background-color: white;
+    }
+    
+    .xicon{
+        border: 2px solid white;
+        font-size: 50px;
+      
+    }
+    .delete-icon{
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    
+    .plus-minus{
+        margin-top: 3rem;
+        margin-left: -40px;
+        display: grid;
+        grid-template-columns: 45% 20%;
+    }
+    
+    .plus-minus button{
+        font-size: 25px;
+        border-radius: 7px;
+        width: 60px;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 9px;
+    }
+    
+    .cartdata-div3 button{
+    margin-left: 30px;
+    }
 }
