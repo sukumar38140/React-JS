@@ -42,8 +42,16 @@ function SimpleSlider() {
                 </Slider>
 
             </div>
+        </>
+    );
+}
 
-            {/* <div className="mt-5 justify-content-center align-items-center" id="sections_4">
+export default SimpleSlider;
+
+
+
+
+{/* <div className="mt-5 justify-content-center align-items-center" id="sections_4">
                 <section className="text-center me-3 rounded-section bg-color1 " id="big-section">
                     <span className="rounded-icon">< FaCar /></span>
                     <h5 className="section-title">Free Shipping</h5>
@@ -68,15 +76,3 @@ function SimpleSlider() {
                     <p className="section-text">Lorem ipsum dolor sit amet</p>
                 </section>
             </div> */}
-
-
-
-
-
-
-
-        </>
-    );
-}
-
-export default SimpleSlider;
